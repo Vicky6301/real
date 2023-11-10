@@ -1,0 +1,83 @@
+.list{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  font-size: 25px;
+  font-style: italic;
+}
+ul li{
+  display: inline-block;   
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+}
+ul li a:hover{
+  color:blue;
+}
+   .service-title h4 {
+    position: relative;
+    display: inline-block;
+  }
+  .service-title p {
+    padding:  190px;
+    margin-bottom: 10px;
+  }
+  
+  .service {
+    border: 0px solid #e3e6e7;
+    padding: 50px 30px;
+      position: relative;
+  }
+  
+  .service p{
+      position: relative;
+  }
+  
+  .service:hover {
+    background-image:url(img4.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .service:hover:before {
+    background: rgba(0, 0, 0,0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+  }
+  
+  .service:hover h4,.service:hover p{
+    color: #eef3f2;
+  }
+  .service h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:gray;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    height: 170px;
+    color: white;
+  }
+  .items1{
+    display: list-item;
+    list-style-type: none;
+  }
+  
